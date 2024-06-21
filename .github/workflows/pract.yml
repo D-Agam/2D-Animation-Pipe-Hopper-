@@ -9,3 +9,5 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run sample github action
         run: echo "Success workflow"
+      - name: Stimulating error
+        run: echo "error taking place"
