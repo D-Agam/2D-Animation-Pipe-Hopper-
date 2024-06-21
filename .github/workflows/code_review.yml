@@ -1,6 +1,6 @@
 name: code review
 
-on: push
+on: pull
 
 jobs:
   code-review:
