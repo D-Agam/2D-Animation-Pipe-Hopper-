@@ -1,6 +1,7 @@
 name: code review
 
-on: pull
+on: 
+  pull_request:
 
 jobs:
   code-review:
