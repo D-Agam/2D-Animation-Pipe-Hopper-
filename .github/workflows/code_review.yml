@@ -1,0 +1,10 @@
+name: code review
+on: push
+
+jobs:
+  code-review:
+    runs-on:ubuntu-latest
+    steps:   
+      -name: ChatGPT CodeReviewer
+       uses: anc95/ChatGPT-CodeReview@v1.0.13
+            
