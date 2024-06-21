@@ -6,8 +6,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
       - name: Super-Linter
-        uses: github/super-linter@v5.7.2
+        uses: github/super-linter@v4.9.4
