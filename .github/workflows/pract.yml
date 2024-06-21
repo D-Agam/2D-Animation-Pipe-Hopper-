@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run sample github action
-      - run: echo "Success workflow"
+        run: echo "Success workflow"
